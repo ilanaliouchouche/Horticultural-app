@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0"
+      prefWidth="320.0" styleClass="bodybg" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Window1Controller">
+    <children>
+        <Button fx:id="threepoints" mnemonicParsing="false" onAction="#backMenu" styleClass="back-button"
+                stylesheets="@style.css" text="⏎">
+            <VBox.margin>
+                <Insets bottom="15.0" left="15.0" right="5.0" top="15.0"/>
+            </VBox.margin>
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+        </Button>
+        <Label alignment="CENTER" prefHeight="45.0" prefWidth="319.0" styleClass="text-marron-big" text="Mon Jardin">
+            <font>
+                <Font name="Roboto" size="34.0"/>
+            </font>
+            <padding>
+                <Insets bottom="30.0"/>
+            </padding>
+        </Label>
+        <GridPane prefHeight="226.0" prefWidth="302.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="101.4000244140625" minWidth="6.20001220703125"
+                                   prefWidth="20.200048828125"/>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="207.79998779296875" minWidth="10.0"
+                                   prefWidth="146.799951171875"/>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.60001220703126" minWidth="10.0"
+                                   prefWidth="139.99998779296874"/>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="170.60003662109372" minWidth="10.0"
+                                   prefWidth="19.20001220703125"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+            <children>
+                <Button fx:id="fleurs" maxHeight="95.0" maxWidth="95.0" minHeight="50.0" minWidth="50.0"
+                        mnemonicParsing="false" onAction="#goToFleurs" prefHeight="95.0" prefWidth="95.0"
+                        styleClass="jardin-button" stylesheets="@style.css" text="FLEURS" GridPane.columnIndex="1"
+                        GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                    <GridPane.margin>
+                        <Insets bottom="15.0" left="3.0" right="3.0" top="5.0"/>
+                    </GridPane.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </Button>
+                <Button maxHeight="95.0" maxWidth="95.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false"
+                        prefHeight="95.0" prefWidth="95.0" styleClass="jardin-button" stylesheets="@style.css"
+                        text="AUTRES" GridPane.columnIndex="2" GridPane.halignment="CENTER"
+                        GridPane.valignment="CENTER">
+                    <GridPane.margin>
+                        <Insets bottom="15.0" left="3.0" right="3.0" top="5.0"/>
+                    </GridPane.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </Button>
+            </children>
+        </GridPane>
+        <Separator opacity="0.0" orientation="VERTICAL" prefHeight="89.0" prefWidth="0.0"/>
+        <Button alignment="BASELINE_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#goToCreerNouveau"
+                prefWidth="37.0" styleClass="plus-button" stylesheets="@style.css" text="+">
+            <VBox.margin>
+                <Insets bottom="15.0" left="280.0" right="15.0" top="15.0"/>
+            </VBox.margin>
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+        </Button>
+    </children>
+</VBox>

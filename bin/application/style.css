@@ -1,0 +1,120 @@
+.bodybg{
+   -fx-background-image: url("https://static.vecteezy.com/ti/photos-gratuite/p2/6538862-printemps-naturel-feuille-verte-fond-feuille-verte-sur-fond-flou-utilisation-comme-printemps-et-nature-fond-selectionne-focus-gratuit-photo.jpg");
+   -fx-background-size: 100% 100%;    
+}
+
+.fondo {
+    -fx-background-image: url('/images/background.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
+
+.search-button{
+   -fx-background-color: #5d4037;
+   -fx-background-radius: 30;
+   -fx-text-fill: white
+}
+
+.back-button {
+    -fx-background-color: #5d4037;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+}
+
+back-button {
+    -fx-background-color: #5d4037;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+}
+
+
+.transparent{
+   -fx-background-color: rgba(0,0,0,0);
+}
+
+.datepicker-button{
+   -fx-background-color: #ffffff9c;
+   -fx-background-radius: 100;
+}
+
+.plus-button {
+    -fx-background-color: #5d4037;
+    -fx-background-radius: 100;
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+}
+
+.jardin-button{
+   -fx-background-color: #5d4037;
+   -fx-background-radius: 5;
+   -fx-font-size: 16px;
+   -fx-text-fill: white;
+   -fx-font-family: "Roboto";
+}
+
+.sidemenu-button{
+   -fx-background-color: #828282;
+   -fx-background-radius: 5;
+   -fx-font-size: 16px;
+   -fx-font-family: "Roboto";
+}
+
+.fleursinside-button{
+   -fx-background-color: #5d4037;
+   -fx-background-radius: 5;
+   -fx-font-size: 14px;
+   -fx-text-fill: white;
+
+   -fx-font-family: "Roboto";
+}
+
+.shadow{
+   -fx-effect: dropShadow(three-pass-box, rgba(0,0,0, 0.1), 10.0, 0.0, 0.0, 10.0);
+}
+
+.text-marron {
+    -fx-text-fill: #5d4037;
+}
+
+.text-marron-bold {
+    -fx-text-fill: #5d4037;
+    -fx-font-weight: bold;
+    -fx-font-family: "Roboto"
+}
+
+.text-marron-big {
+    -fx-text-fill: #5d4037; /* couleur marron */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 2, 0, 1, 1);
+    -fx-font-family: "Roboto";
+    -fx-font-weight: bold;
+    -fx-font-size: 48px;
+}
+
+.date-label {
+    -fx-font-weight: bold;
+    -fx-font-size: 26px;
+}
+
+.task-list {
+    -fx-font-size: 18px;
+    -fx-text-fill: #5d4037;
+    -fx-font-weight: bold;
+    -fx-font-family: "Roboto";
+}
+
+.brown-button-roboto {
+    -fx-background-color: #5d4037;
+    -fx-text-fill: white;
+    -fx-font-family: "Roboto";
+    -fx-font-size: 16px;
+    -fx-background-radius: 5;
+}
+
+.upper-section {
+    -fx-background-color: #006400; /* Vert foncé */
+}
+
+
+
+

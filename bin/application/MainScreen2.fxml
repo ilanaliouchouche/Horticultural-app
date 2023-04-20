@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+           orientation="VERTICAL" prefHeight="450.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/18"
+           xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller" styleClass="bodybg" stylesheets="@style.css">
+    <items>
+        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+                    prefHeight="122.0" prefWidth="320.0" >
+            <children>
+                <Button fx:id="addEventButton" layoutX="125.0" layoutY="84.0" mnemonicParsing="false"
+                        onAction="#addEventHandler" styleClass="back-button" stylesheets="@style.css" text="Ajouter">
+                    <font>
+                        <Font name="Roboto" size="12.0"/>
+                    </font>
+                </Button>
+                <DatePicker fx:id="datePicker" layoutX="79.0" layoutY="14.0" prefHeight="24.0" prefWidth="162.0"/>
+                <TextField fx:id="eventDescriptionTextField" layoutX="85.0" layoutY="48.0" prefHeight="25.0"
+                           prefWidth="150.0" promptText="Tâche "/>
+                <Button fx:id="backM" layoutX="250.0" layoutY="84.0" mnemonicParsing="false" onAction="#backMenu"
+                        styleClass="search-button" stylesheets="@style.css" text="Terminé">
+                    <font>
+                        <Font name="Roboto" size="12.0"/>
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <ListView fx:id="eventListView" prefHeight="450.0" prefWidth="320.0"/>
+    </items>
+</SplitPane>

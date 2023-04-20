@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefWidth="320.0" prefHeight="450.0" minHeight="-Infinity" minWidth="-Infinity" maxHeight="-Infinity" maxWidth="-Infinity" styleClass="bodybg" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerPrenom">
+    <children>
+        <Label layoutX="40.0" layoutY="60.0" text="Mon Jardin" styleClass="text-marron-big">
+            <font>
+                <Font name="Roboto" size="36.0"/>
+            </font>
+        </Label>
+        <Label layoutX="54.0" layoutY="190.0" prefWidth="210.0" prefHeight="18.0" text="Connectez-vous" styleClass="text-marron" alignment="CENTER">
+            <font>
+                <Font name="Roboto" size="14.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="namechoosen" layoutX="50.0" layoutY="220.0" prefWidth="220.0" promptText="Tapez votre nom" style="-fx-text-inner-color: gray;">
+            <font>
+                <Font name="Roboto" size="14.0"/>
+            </font>
+        </TextField>
+        <AnchorPane layoutX="50.0" layoutY="250.0" prefWidth="220.0" prefHeight="40.0">
+            <Button layoutX="50.0" layoutY="11.0" text="Se Connecter" mnemonicParsing="false" onAction="#setName" styleClass="brown-button-roboto" stylesheets="@style.css">
+                <font>
+                    <Font name="Roboto" size="13.0"/>
+                </font>
+            </Button>
+        </AnchorPane>
+    </children>
+</AnchorPane>
