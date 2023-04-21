@@ -31,7 +31,7 @@ public class Window1Controller {
             stage.show();
             this.stage.close();
         } catch (IOException ex) {
-            //Logger.getLogger(MenuController.class.getName()).log(Level.SEVERE, null, ex);
+           
         }
     }
 

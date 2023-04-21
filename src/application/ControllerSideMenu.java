@@ -42,10 +42,10 @@ public class ControllerSideMenu implements Initializable {
             st = br.readLine();
             prenom.setText("Bonjour " + st);
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
+            
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
+    
             e.printStackTrace();
         }
 
@@ -66,7 +66,7 @@ public class ControllerSideMenu implements Initializable {
             this.stage.close();
 
         } catch (IOException ex) {
-            //Logger.getLogger(MenuController.class.getName()).log(Level.SEVERE, null, ex);
+           
         }
     }
 
@@ -84,7 +84,7 @@ public class ControllerSideMenu implements Initializable {
             this.stage.close();
 
         } catch (IOException ex) {
-            //Logger.getLogger(MenuController.class.getName()).log(Level.SEVERE, null, ex);
+          
         }
     }
 
@@ -107,7 +107,7 @@ public class ControllerSideMenu implements Initializable {
             this.stage.close();
 
         } catch (IOException ex) {
-            //Logger.getLogger(MenuController.class.getName()).log(Level.SEVERE, null, ex);
+       
         }
     }
 }

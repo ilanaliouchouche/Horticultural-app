@@ -30,11 +30,7 @@ public class Main extends Application {
 
         }
 
-        //primaryStage.setTitle("Exemple FXML");
-        //AnchorPane myPane = (AnchorPane)FXMLLoader.load(getClass().getResource("MainScreen.fxml"));
-        //Scene myScene = new Scene(myPane, 320, 450);
-        //primaryStage.setScene(myScene);
-        //primaryStage.show();
+      
     }
 
     public static void main(String[] args) {

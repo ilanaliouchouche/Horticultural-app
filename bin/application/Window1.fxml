@@ -50,7 +50,7 @@
             <children>
                 <Button fx:id="fleurs" maxHeight="95.0" maxWidth="95.0" minHeight="50.0" minWidth="50.0"
                         mnemonicParsing="false" onAction="#goToFleurs" prefHeight="95.0" prefWidth="95.0"
-                        styleClass="jardin-button" stylesheets="@style.css" text="FLEURS" GridPane.columnIndex="1"
+                        styleClass="jardin-button" stylesheets="@style.css" text="Fleurs" GridPane.columnIndex="1"
                         GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                     <GridPane.margin>
                         <Insets bottom="15.0" left="3.0" right="3.0" top="5.0"/>
@@ -61,7 +61,7 @@
                 </Button>
                 <Button maxHeight="95.0" maxWidth="95.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false"
                         prefHeight="95.0" prefWidth="95.0" styleClass="jardin-button" stylesheets="@style.css"
-                        text="AUTRES" GridPane.columnIndex="2" GridPane.halignment="CENTER"
+                        text="Autres" GridPane.columnIndex="2" GridPane.halignment="CENTER"
                         GridPane.valignment="CENTER">
                     <GridPane.margin>
                         <Insets bottom="15.0" left="3.0" right="3.0" top="5.0"/>

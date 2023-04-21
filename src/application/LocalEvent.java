@@ -26,7 +26,7 @@ public class LocalEvent implements Serializable {
     }
 
 
-    // 
+    
     @Override
     public String toString() {
         return date + " : " + description;
